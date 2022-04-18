@@ -6,9 +6,9 @@ import (
 	"image/color"
 	"image/draw"
 
-	"github.com/skelterjohn/go.wde" // nolint: goimports
+	// nolint: goimports
+	"github.com/redraskal/dialog"
 	_ "github.com/skelterjohn/go.wde/init"
-	"github.com/sqweek/dialog"
 )
 
 var loadR, saveR image.Rectangle
